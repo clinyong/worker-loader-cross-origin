@@ -1,0 +1,17 @@
+{
+  "name": "worker-loader-cross-origin",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start-server": "http-server -p 5001 .",
+    "start-client": "http-server -p 5000 .",
+    "build": "rm -rf dist && webpack"
+  },
+  "devDependencies": {
+    "http-server": "^0.12.3",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "worker-loader": "^3.0.1"
+  }
+}
